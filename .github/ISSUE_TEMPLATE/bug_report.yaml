@@ -1,7 +1,7 @@
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
-labels: ["bug","evaluation required"]
+labels: ["bug", "evaluation required"]
 body:
   - type: markdown
     attributes:
@@ -9,6 +9,7 @@ body:
         Thanks for taking the time to fill out this bug report!
         Seriously consider creating and linking to a test repo which takes absolutely minimal setup to illustrate how reproduce the problem.
   - type: textarea
+    id: bug-explanation
     attributes:
       label: Bug explanation
       description: 
