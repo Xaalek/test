@@ -1,25 +1,30 @@
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
-labels: ["bug", "evaluation required"]
+labels: ["bug"]
+assignees:
+  - octocat
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-- type: textarea
-    id: bug-explanation
+  - type: textarea
+    id: what-happened
     attributes:
-      label: Bug explanation
-      description: Tell us what is the problem and what did you expect to happen?
-      placeholder: Explain the problem...
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
     validations:
       required: true
   - type: dropdown
     id: version
     attributes:
       label: Version
-      description: What version of our package are you running?
-      placeholder: Example: 4.5.0
+      description: What version of our software are you running?
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
     validations:
       required: true
