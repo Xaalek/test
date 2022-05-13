@@ -11,8 +11,7 @@ body:
     id: bug-explanation
     attributes:
       label: Bug explanation
-      description: 
-        Tell us what is the problem and what did you expect to happen?
+      description: Tell us what is the problem and what did you expect to happen?
       placeholder: Explain the problem...
     validations:
       required: true
