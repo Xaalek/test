@@ -7,16 +7,12 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-        Seriously consider creating and linking to a test repo which takes absolutely minimal setup to illustrate how reproduce the problem.
-  - type: textarea
+- type: textarea
     id: bug-explanation
     attributes:
       label: Bug explanation
       description: 
         Tell us what is the problem and what did you expect to happen?
-        Explain the differents steps to reproduce the bug.
-        Provide a minimal and reproducible example.
-        You can attach some screenshots or/and videos to better illustrate the problem.
       placeholder: Explain the problem...
     validations:
       required: true
