@@ -13,14 +13,14 @@ body:
     attributes:
       label: Bug explanation
       description: |
-        Tell us what is the problem and what did you expect to happen?
-        Explain the differents steps to reproduce the bug.
-        Provide a minimal and reproducible example.
+        - Tell us what is the problem and what did you expect to happen?
+        - Explain the differents steps to reproduce the bug.
+        - Provide a minimal and reproducible example.
         You can attach some screenshots or/and videos to better illustrate the problem.
       placeholder: Explain the problem...
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: version
     attributes:
       label: Version
