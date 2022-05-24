@@ -1,6 +1,5 @@
 name: Question/Help request
 description: You have a question or you need help about the library
-title: ""
 labels: ["question", "evaluation required"]
 body:
   - type: markdown
