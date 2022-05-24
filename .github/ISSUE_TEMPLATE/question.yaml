@@ -1,8 +1,10 @@
-blank_issues_enabled: false
-contact_links:
-  - name: GitHub Community Support
-    url: https://github.community/
-    about: Please ask and answer questions here.
-  - name: GitHub Security Bug Bounty
-    url: https://bounty.github.com/
-    about: Please report security vulnerabilities here.
+name: Question/Help request
+description: You have a question or you need help about the library
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use the [Discussion tab](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit/discussions) or the [Gitter chat room](https://gitter.im/ButchersBoy/MaterialDesignInXamlToolkit) for this type of request.
+        
+        
+        
